@@ -20,3 +20,7 @@ app.get('/items', (req, res) => {
 })
 
 module.exports = app
+
+app.listen(port, () => {
+    console.log(`Example app listenling at http://localhost:${port}`)
+})
